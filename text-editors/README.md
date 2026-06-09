@@ -46,4 +46,4 @@ This allows previewing before applying any changes, helping us avoid irreversibl
 
 ### Next
 
-Regular Expressions are a powerful tool for cleaning and manipulating text data. We cover the basics of regex and pattern-based thinking in the [regex/](https://github.com/Soph231/string-manipulation-tools/tree/main/regex) forlder and in the accompanying [article]([https://sophiabrauning.com/?p=2435&preview=true](https://sophiabrauning.com/regular-expressions-regex-thinking-in-patterns/ "Regular Expression: thinking in patterns")
+Regular Expressions are a powerful tool for cleaning and manipulating text data. We cover the basics of regex and pattern-based thinking in the [regex/](https://github.com/Soph231/string-manipulation-tools/tree/main/regex) forlder and in the accompanying [article](https://sophiabrauning.com/regular-expressions-regex-thinking-in-patterns/ "Regular Expression: thinking in patterns")
