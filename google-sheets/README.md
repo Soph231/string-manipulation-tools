@@ -7,7 +7,7 @@ The examples use species observation records and show how text can be split, cle
 ## Files
 example_data.csv
 
-Columns:
+Columns headers:
 
 * plot
 * species_name
@@ -16,21 +16,16 @@ Columns:
 
 Example:
 
-plot	species_name	date	sample_id
-Plot01	Carex_secta	2024-01-03	Control_01
-Exercise 1: Split Text into Columns
+- plot|species_name|date|sample_id
+- Plot01|Carex_secta|2024-01-03|Control_01
 
-Suppose we first combine several pieces of information into one column:
+#### Exercise 1: Split Text into Columns
 
-=A2&" | "&B2&" | "&C2
+The columns of the example file are reperesented by the symbol |. To create a tabular data with each columns separated, we can split the values by the separateor |
 
-which produces:
+To separate these values:
 
-Plot01 | Carex_secta | 2024-01-03
-
-To separate these values again:
-
-Select the column.
+Select the column containing the values (Column A).
 Go to:
 Data → Split text to columns
 Choose:
@@ -40,8 +35,11 @@ Enter:
 
 Expected result:
 
-Plot01    Carex_secta    2024-01-03
-Exercise 2: Replace Text
+plot|species_name|date|sample_id
+|---|---|---|---|
+Plot01|Carex_secta|2024-01-03|Control_01
+
+#### Exercise 2: Replace Text
 
 Species names in the dataset use underscores.
 
@@ -49,20 +47,20 @@ Example:
 
 Carex_secta
 
-To replace underscores with spaces:
+To replace underscores with spaces in column E cell 2 (E2) enter:
 
 =SUBSTITUTE(B2,"_"," ")
 
 Expected result:
-
 Carex secta
-Exercise 3: Extract Text
+Drag the formula down to apply to all entries.
+
+#### Exercise 3: Extract Text
 
 After replacing the underscores, we may want to extract only the genus name.
 
-Example:
-
-Carex secta
+For example, in cell E2 we have (Carex secta
+), use the formula below to extract genus name:
 
 Formula:
 
@@ -71,7 +69,8 @@ Formula:
 Expected result:
 
 Carex
-Exercise 4: Identify Patterns
+
+#### Exercise 4: Identify Patterns
 
 Sample IDs begin with either:
 
@@ -87,14 +86,18 @@ To classify them:
 
 Expected result:
 
-sample_id	Group
-Control_01	Control
-Sample_01	Sample
-Related Articles
-Split Text into Columns in Google Sheets
-Replace Text in Strings
-Extract Text from Strings
-Identify Patterns in Text
-Next
+|sample_id|Group|
+|---|---|
+|Control_01|Control|
+|Sample_01|Sample|
 
+## Related Article
+[Using Google Sheets for String Manipulation](https://sophiabrauning.com/using-google-sheets-for-string-manipulation/ "Go to article")
+### Videos
+- [Split Text into Columns in Google Sheets](https://youtu.be/ac07uPtApFs "Watch")
+- [Replace Text in Strings](https://youtu.be/i4TqgZALpZc "Watch")
+- [Extract Text from Strings](https://youtu.be/Ewwhfhj1wDc "Watch")
+- [Identify Patterns in Text](https://youtu.be/0xVc9XW9FFI "Watch")
+
+## Next
 After becoming comfortable with these spreadsheet techniques, the same ideas can be applied using text editors, regular expressions, and shell scripting.
