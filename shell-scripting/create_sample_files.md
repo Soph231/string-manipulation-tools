@@ -51,7 +51,7 @@ sample_2.txt
 
 sample_50.txt
 
-** Check that the files are created**
+**Check that the files are created**
 
 To check if the files have been successfully created use:
 
@@ -61,15 +61,14 @@ This should list all the files.
 
 These files can then be renamed using the 'rename_files.sh' script with slight modification.
 
-change the folder name in the script:
+change the folder name in the script (rename_files.sh):
 
-rename_files.sh
 
-from example_files:
+from example_files to test_files in the following line:
 ```
 cd example_files
 ```
-to test_files:
+to 
 ```
 cd test_files
 ```
