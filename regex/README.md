@@ -38,30 +38,42 @@ Unlike +, the * operator can also match zero digits. For example, in the string 
 
 #### Exercise 2
 Match Dates
+
 Dates in the example data follow the pattern:
+
 2024-01-03
 
 Regex:
+
 \d{4}-\d{2}-\d{2}
+
 matches dates with four digits, followed by two groups of two digits separated by hyphens.
 
 #### Exercise 3
 Match Plot IDs
+
 Example:
+
 Plot01
 
 Regex:
+
 Plot\d+
+
 matches the word "Plot" followed by one or more digits.
 
-Exercise 4
+#### Exercise 4
+
 Combine Patterns
 
 Suppose we want to match:
+
 Plot01_Carex_secta_2024-01-03
 
 Regex:
+
 Plot\d+_[A-Za-z]+_[A-Za-z]+_\d{4}-\d{2}-\d{2}
+
 combines several smaller patterns into one.
 
 #### Exercise 5
@@ -69,14 +81,19 @@ Use Groups by surrounding the pattern of interest in parenthesis. This allows us
 
 
 Regex:
+
 ([A-Za-z]+)_([A-Za-z]+)
 
 captures:
+
 Carex_secta
 
 into two groups:
+
 Carex
+
 secta
+
 which can then be rearranged or replaced.
 
 #### Exercise 6
@@ -91,8 +108,8 @@ Notice the common Mistakes in the following table. Can you think of other mistak
 
 ### Related Article
 [Regular Expressions (Regex): Thinking in Patterns](https://sophiabrauning.com/regular-expressions-regex-thinking-in-patterns/)
-- **Video**
-- [YouTube](https://youtu.be/GY3jbGr-ykM "Watch")
+#### Video
+[YouTube](https://youtu.be/GY3jbGr-ykM "Watch")
 
 ### Resources
 [RegexLearn](regexlearn.com)
