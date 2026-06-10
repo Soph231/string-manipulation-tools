@@ -1,0 +1,1 @@
+This folder contains 50 empty text files used in the shell scripting exercises. The script rename_files.sh renames these files automatically and demonstrates how repetitive tasks can be automated using loops.
