@@ -67,15 +67,15 @@ Shell scripts are simply text files containing commands. They can be used to aut
 The examples in this folder demonstrate how shell scripts can be used to automate file creation and file renaming.
 
 ## Create the script for renaming file names
-Below is the code used to rename the sample files in the example_files folder.
+Below is the code in rename_files.sh which renames the sample files in the example_files folder.
 
-To create the script yourself, copy the code into a new file, save it, and make it executable.
+To create the script yourself, first create your own sample files by following the instruction in create_sample_files.md. This will create the sample files in a folder called "test_samples". Then copy the code below into a new file, save it, and make it executable.
 
-The script is already included in this folder as rename_files.sh, so if you create your own version, save it with a different name.
+**Code**
 ```
 #!/bin/bash
-# Move into the folder "example_files" and confirm location and presence of the sample files
-cd example_files
+# Move into the folder "test_files" and confirm location and presence of the sample files
+cd test_files
 pwd
 ls
 # Rename the first 25 files as control files
