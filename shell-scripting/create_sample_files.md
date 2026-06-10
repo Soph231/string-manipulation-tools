@@ -10,15 +10,15 @@ sample_2.txt
 
 sample_50.txt
 
-These files can be created automatically in a folder named `example_files` using a shell script.
+These files can be created automatically in a folder named `test_files` using a shell script.
 
 To create the script copy the highlighted lines below into a file and save it as create_files.sh
 ### Script for creating sample files
 ```
 #!/bin/bash
 
-mkdir -p example_files
-cd example_files
+mkdir -p test_files
+cd test_files
 
 for i in {1..50}
 do
@@ -59,6 +59,17 @@ ls
 
 This should list all the files.
 
-These files can then be renamed using the script:
+These files can then be renamed using the 'rename_files.sh' script with slight modification.
+
+change the folder name in the script:
 
 rename_files.sh
+
+from example_files:
+```
+cd example_files
+```
+to test_files:
+```
+cd test_files
+```
