@@ -69,7 +69,9 @@ The examples in this folder demonstrate how shell scripts can be used to automat
 ## Create the script for renaming file names
 Below is the code in rename_files.sh which renames the sample files in the example_files folder.
 
-To create the script yourself, first create your own sample files by following the instruction in create_sample_files.md. This will create the sample files in a folder called "test_samples". Then copy the code below into a new file, save it, and make it executable.
+To create the script yourself, first create your own sample files by following the instructions in create_sample_files.md. This will create 50 sample files in a folder named test_files.
+
+Next, copy the code below into a new file, save it with a .sh extension, and make it executable.
 
 **Code**
 ```
