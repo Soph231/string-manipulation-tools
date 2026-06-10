@@ -102,4 +102,4 @@ Notice the common Mistakes in the following table. Can you think of other mistak
 
 ### Next
 
-Once patterns become repetitive, we can automate tasks using shell scripts. Examples are provided in the shell-scripting/ folder and accompanying [article](https://sophiabrauning.com/what-is-scripting-a-practical-introduction-using-the-command-line/).
+Once patterns become repetitive, we can automate tasks using shell scripts. Examples are provided in the [shell-scripting/](https://github.com/Soph231/string-manipulation-tools/tree/main/shell-scripting) folder and accompanying [article](https://sophiabrauning.com/what-is-scripting-a-practical-introduction-using-the-command-line/).
